@@ -1,0 +1,57 @@
+body {
+    background: #5fa9e6;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  body #container {
+    display: -webkit-box;
+    display: flex;
+    height: 90vh;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+  body #container .main-title {
+    font: 200 50px/2.5 "Pacifico", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 75px;
+    margin-bottom: 3px;
+  }
+  body #container .length-control {
+    width: 250px;
+  }
+  body #container button {
+    background: none;
+    outline: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  body #container .btn-level,
+  body #container .length-control {
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+  }
+  body #container .timer {
+    border: 10px solid white;
+    margin: 25px auto 20px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+  }
+  body #container .timer .timer-wrapper {
+    top: 70%;
+  }
+  body #container .timer #time-left {
+    font-size: 80px;
+  }
+  
+  footer {
+    width: auto;
+    padding: 175px;
+    float: botton;
+  }
+  
